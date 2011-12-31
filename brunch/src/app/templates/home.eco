@@ -1,0 +1,8 @@
+<div id="todo-app">
+  <h1>add tracks</h1>
+</div>
+<ul id="instructions">
+  <li>Double-click to edit a track.</li>
+  <!-- <li><a href="../docs/todos.html">View the annotated source.</a></li> -->
+</ul>
+
