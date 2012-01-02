@@ -41,7 +41,7 @@ app.get('/', routes.index);
 app.get('/spotify-songs/:keyword', function(req,res){
     
 
-request('http://localhost:3000/spotify/' + req.params.keyword, function (error, response, body) {
+request('/spotify/' + req.params.keyword, function (error, response, body) {
   if (!error && response.statusCode == 200) {
     var parsedJSON = JSON.parse(body)
   , trackLen = parsedJSON.tracks.length
